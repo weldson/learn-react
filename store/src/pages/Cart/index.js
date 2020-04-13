@@ -20,8 +20,6 @@ function Cart({ cart, total, removeFromCart, updateAmountRequest }) {
     updateAmountRequest(product.id, product.amount - 1);
   }
 
-
-
   return (
     <Container>
       <ProductTable>
